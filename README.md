@@ -17,6 +17,9 @@ The table is in 1st normal form, and
 All the non-key columns are dependent on the table’s primary key.
 ```
 The table also shows redundant info and most of the info like the sales rep, should be in it's own table, showing both customer and sales rep in a non-intuitive way.
+### 3rd Normal
+The rep coloums are unrelated to the customer, therefore 3rd form is not satisfied.
+
 ## 02
 Given that the customer is a company, and we assume that the customer name is unique (as no 2 companies can be named the same), we could use the customer name as a key. The norms would change in this case, as you'd only get what's relevant to the customer, and not everything else (The 2nd norm is then no longer valid). The case for the first norm would be the same as we concatinate certain values from the customer.
 ## 03
